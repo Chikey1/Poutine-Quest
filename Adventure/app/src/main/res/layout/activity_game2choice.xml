@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.saraqi.adventure.Game2">
+
+    <ImageView
+        android:id="@+id/intro_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/background" />
+
+    <TextView
+        android:id="@+id/choice1_shield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textSize="16sp"
+        android:text="@string/game2_choice1"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/wooden_spoon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/wooden_spoon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/woodenspoon"
+        android:contentDescription="@string/wooden_spoon"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/text_wooden_spoon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:onClick="selectWoodenSpoon"
+        />
+
+    <ImageView
+        android:id="@+id/plastic_spoon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/plasticspoon"
+        android:contentDescription="@string/plastic_spoon"
+        app:layout_constraintBottom_toTopOf="@+id/text_plastic_spoon"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="selectPlasticSpoon"/>
+
+    <TextView
+        android:id="@+id/text_wooden_spoon"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/wooden_spoon"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/choice2_weapon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/text_plastic_spoon"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/plastic_spoon"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/choice2_weapon"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <TextView
+        android:id="@+id/choice2_weapon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="16sp"
+        android:text="@string/game2_choice2"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/fork"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/fork"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/fork"
+        android:contentDescription="@string/fork"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:foregroundGravity="center_vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:onClick="selectFork"
+        />
+
+    <ImageView
+        android:id="@+id/knife"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/knife"
+        android:contentDescription="@string/knife"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:foregroundGravity="center_vertical"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="selectKnife"/>
+
+    <TextView
+        android:id="@+id/text_fork"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fork"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/fork"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/text_knife"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/knife"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/knife"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <TextView
+        android:id="@+id/choice3_special"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="16sp"
+        android:text="@string/game2_choice3"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/text_knife"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/blow_torch"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/blowtorch"
+        android:contentDescription="@string/blow_torch"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toBottomOf="@+id/choice3_special"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:onClick="selectTorch"
+        />
+
+    <ImageView
+        android:id="@+id/lemon_juice"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/lemon"
+        android:contentDescription="@string/lemon_juice"
+        app:layout_constraintTop_toBottomOf="@+id/choice3_special"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="selectLemon"/>
+
+    <TextView
+        android:id="@+id/text_blow_torch"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/blow_torch"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/blow_torch"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/text_lemon_juice"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lemon_juice"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/lemon_juice"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_lemon_juice"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="next"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

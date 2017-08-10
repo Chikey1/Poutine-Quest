@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.saraqi.adventure"
+    android:versionCode="1">
+    <supports-screens
+        android:smallScreens="false"
+        android:normalScreens="true"
+        android:largeScreens="false"
+        android:xlargeScreens="false" />
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:description="@string/description"
+        android:isGame="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Intro1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Intro2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Challenge1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Instructions1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Completed1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game2Result"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Gameover"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Instructions2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Challenge2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Completed2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Challenge3"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Instructions3"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Game3"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Completed3"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Ending1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Ending2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Ending3"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Ending"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TheEnd"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

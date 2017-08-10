@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Poutine Quest</string>
+    <string name="description">In this game, you play a potato who needs to turn his life around by completing three challenges.</string>
+
+    <string name="start">START</string>
+
+    <string name="intro_title">Introduction</string>
+    <string name="intro_text1">You lay in bed. </string>
+    <string name="intro_text2">You’re 32, broke, and jobless.</string>
+    <string name="intro_text3">To top it off, you’ve been single for over 10 years.</string>
+    <string name="intro_text4">Suddenly, a revelation hits you.</string>
+    <string name="intro_text5">You live in the magical land of poutine, Poutineland, governed by Sir Vladimir Poutine.</string>
+    <string name="intro_text6">Everyone who lives here worships the Canadian delicacy and its ingredients: fries, cheese curds, and gravy.</string>
+    <string name="intro_text7">20 years ago, the best poutine-maker in the land passed away.</string>
+    <string name="intro_text8">His name was Sir Spiriden Poutine, Sir Vladimir Poutine’s grandfather.</string>
+    <string name="intro_text9">In his will, he wrote that whoever could pass his three challenges would be able to inherit the recipe.</string>
+    <string name="intro_text10">Currently, no one has been able to pass even a single challenge. </string>
+    <string name="intro_text11">If you could inherit the legendary recipe, it would solve all your problems.</string>
+    <string name="intro_text12">And so, you set out to seek the 3 guardians who guard the recipe…</string>
+
+    <string name="challenge1_text1">You find the first guardian, Monsieur Pompous Potato, in the city.</string>
+    <string name="challenge1_text2">\"Ze first challenge is verrrry simple.\"</string>
+    <string name="challenge1_text3">\"I \'ave just made a new batch of fries.\"</string>
+    <string name="challenge1_text4">\"Each fry iz supposed to be identical, \'owever, there were some... mistakes.\"</string>
+
+    <string name="instructions1">Challenge 1</string>
+    <string name="instructions1_text1">Your job is to identify the fries that do not look like the others.</string>
+    <string name="instructions1_text2">(There are a total of 3 rounds, 3 tries each. Tap the fries that do not belong.)</string>
+    <string name="game1_round1">Round 1</string>
+    <string name="game1_round2">Round 2</string>
+    <string name="game1_round3">Round 3</string>
+    <string name="game1_hint1">Check the faces!</string>
+    <string name="game1_hint2">Check the alignment of the fries!</string>
+    <string name="game1_hint3">Check the color!</string>
+
+    <string name="completed1_text1">\"OH. EM. GEE. I can\'t believe you actually managed to complete it! \"</string>
+    <string name="completed1_text2">\"I know you must get going, but feel free to visit anytime! \"</string>
+    <string name="completed1_text3">\"Also... please sign my forehead... \"</string>
+
+    <string name="challenge2_text1">You find the second guardian, Madame Cherubic Cheese, on the outskirts of time.</string>
+    <string name="challenge2_text2">\"Hi there cutiepie, I see you passed the first challenge.\"</string>
+    <string name="challenge2_text3">\"The second challenge is a bit more... precarious.\"</string>
+    <string name="challenge2_text4">\"I\'d like you to take care of a pest.\"</string>
+
+    <string name="instructions2">Challenge 2</string>
+    <string name="instructions2_text1">Choose three pieces of equipment to take with you to defeat the monster!</string>
+    <string name="instructions2_text2">Hint: it\'s a cheese monster!</string>
+
+    <string name="game2_choice1story">First, Madame Cheese brings out two spoons: a wooden spoon and a plastic spoon.</string>
+    <string name="game2_choice1">Choose your shield</string>
+    <string name="wooden_spoon">Wooden Spoon</string>
+    <string name="plastic_spoon">Plastic Spoon</string>
+
+    <string name="game2_choice2story">Next, Madame Cheese brings out two utensils: a knife and a fork.</string>
+    <string name="game2_choice2">Choose your weapon</string>
+    <string name="knife">Sharp Knife</string>
+    <string name="fork">Pointy Fork</string>
+
+    <string name="game2_choice3story">Finally, Madame Cheese goes into the kitchen and grabs two items: a flamethrower and a bottle of lemon juice.</string>
+    <string name="game2_choice3">Choose your special attack</string>
+    <string name="blow_torch">Blow Torch</string>
+    <string name="lemon_juice">Lemon Juice</string>
+
+    <string name="next">Next -></string>
+
+
+    <string name="game2_result1text">As you approach the giant cheese, it starts pelting cheese curds at you.</string>
+    <string name="game2_result1right">You hold up your wooden spoon in defense…</string>
+    <string name="game2_result1wrong">You hold up your plastic spoon in defense…</string>
+    <string name="game2_result1right1">Boom, boom! Your wooden spoon looks like it’s just barely enough to shield you from its attacks.</string>
+    <string name="game2_result1right2">You better start attacking before it breaks!</string>
+    <string name="game2_result1wrong1">SNAP! Your plastic spoon was smashed into little pieces.</string>
+    <string name="game2_result1wrong2">The last thing you see is the cheese monster slowly approaching…</string>
+
+    <string name="game2_result2text">As the cheese takes a break from attacking, you rush up to attack.</string>
+    <string name="game2_result2right">You draw your knife and attack…</string>
+    <string name="game2_result2wrong">You draw your fork and attack…</string>
+    <string name="game2_result2right1">Slash, slash! You managed to wound the cheese!</string>
+    <string name="game2_result2right2">Now to finish him off!</string>
+    <string name="game2_result2wrong1">Poke, poke! Your fork does literally nothing against the cheese.</string>
+    <string name="game2_result2wrong2">The last thing you see is the cheese monster slowly approaching…</string>
+
+    <string name="game2_result3text">The cheese is staggering from the pain of its wounds.</string>
+    <string name="game2_result3right">You take out your blow torch to deliver the final blow.</string>
+    <string name="game2_result3wrong">You take out your lemon juice to deliver the final blow.</string>
+    <string name="game2_result3wrong1">Spritz, spritz! The lemon juice trickles down the cheese without affecting it.</string>
+    <string name="game2_result3wrong2">The last thing you see is the cheese monster slowly approaching…</string>
+    <string name="game2_result3right1">Whooooooooooshhhhhh! The heat from the blow torch quickly melts the cheese.</string>
+    <string name="game2_result3right2">You’ve won!</string>
+
+    <string name="completed2_text1">\"Hey there hotshot, I can\'t believe you actually did it.\"</string>
+    <string name="completed2_text2">\"Feel free to come back to my cozy cottage anytime~\"</string>
+    <string name="completed2_text3">\"I\'ll give you premium house service~\"</string>
+
+    <string name="challenge3_text1">The third guardian, Monsieur(???) Grumbling Graving, is by Spiridon’s tombstone.</string>
+    <string name="challenge3_text2">\"… tombstone… last words… \"</string>
+    <string name="challenge3_text3">\"… must solve… riddle… \"</string>
+    <string name="challenge3_text4">\"… get recipe… \"</string>
+
+    <string name="instructions3">Challenge 3</string>
+    <string name="instructions3_text1">For the final challenge, you must solve a series of riddles.</string>
+    <string name="instructions3_text2">If you need help, there\'s a hint button!</string>
+
+    <string name="riddle1_title">Riddle 1</string>
+    <string name="riddle2_title">Riddle 2</string>
+    <string name="riddle3_title">Riddle 3</string>
+
+    <string name="riddle1">A container without hinges, lock or a key, yet a golden treasure lies inside me. What am I?</string>
+    <string name="hint1">I\'m a common breakfast food!</string>
+    <string name="answer1">egg</string>
+    <string name="riddle2">What do you get when you drop a pumpkin?</string>
+    <string name="hint2">It turns into another vegetable!</string>
+    <string name="answer2">squash</string>
+    <string name="riddle3">What has no beginning, end, or middle?</string>
+    <string name="hint3">It\'s sweet and sugary!</string>
+    <string name="answer3">doughnut</string>
+
+    <string name="input">Enter answer</string>
+
+    <string name="hint_neutral">Pick an option.</string>
+
+    <string name="completed3_text1">\"… congratulations… \"</string>
+    <string name="completed3_text2">\"… want recipe…?\"</string>
+    <string name="completed3_text3">\"… take… it\’s yours…\"</string>
+
+    <string name="ending_text1">In front of you lies a chest.</string>
+    <string name="ending_text2">Your blood, sweat, and tears have finally paid off.</string>
+    <string name="ending_text3">You gingerly open the chest to reveal…</string>
+
+    <string name="ending_text4">The super secret recipe!</string>
+    <string name="ending_text5">As you skim through the wrinkled parchment, you realize that from now on, you’ll be living in luxury.</string>
+
+    <string name="ending_text6">5 years later…</string>
+    <string name="ending_text7">You’re now a renown poutine-maker.</string>
+    <string name="ending_text8">You’re married and every day is full of happiness.</string>
+    <string name="ending_text9">However, something’s been bothering you…</string>
+    <string name="ending_text10">Aren’t fries… potatoes?</string>
+    <string name="the_end">The End</string>
+
+    <string name="title_activity_game2">Game2</string>
+    <string name="title_activity_intro">Intro</string>
+    <string name="title_activity_gameover">Gameover</string>
+</resources>
